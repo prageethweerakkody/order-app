@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'body.dart';
 import 'items_list_view.dart';
@@ -93,7 +95,7 @@ class _MyStatefulWidgetState extends State<HomeScreen>
         controller: _tabController,
         children: [
           new Body(),
-          new ItemListView(),
+          new Body(),
           new ItemListView(),
           new ItemListView(),
           new ItemListView(),

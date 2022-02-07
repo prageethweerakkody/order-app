@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/data/constants.dart';
 import 'package:flutter_app/data/Product.dart';
+import 'package:flutter_app/data/constants.dart';
+
 
 class ItemCard extends StatelessWidget {
   final Product product;
@@ -40,16 +41,16 @@ class ItemCard extends StatelessWidget {
                   ),
                   Text(
                     // products is out demo list
-                    product.title,
+                    product.name,
                     style: const TextStyle(
-                        fontSize: 20,
+                        fontSize: 15,
                         color: Colors.black,
                         fontWeight: FontWeight.bold),
                   ),
                   Text(
                     "${product.price}Yen",
                     style: const TextStyle(
-                        fontSize: 25,
+                        fontSize: 20,
                         color: Colors.black,
                         fontWeight: FontWeight.bold),
                   ),
